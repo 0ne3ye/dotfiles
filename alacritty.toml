@@ -1,0 +1,22 @@
+import = [
+  #"/usr/lib/node_modules/alacritty-theme/themes/Jasonwryan.toml"
+  "~/.config/alacritty/alacritty-theme/themes/gruvbox_dark.toml"
+]
+
+[font]
+size = 18
+
+  [font.normal]
+  family = "Lilex Nerd Font"
+
+[window]
+decorations = "none"
+opacity = 0.75
+dynamic_padding = true
+
+  [window.padding]
+  x = 5
+  y = 5
+
+[selection]
+save_to_clipboard = true
